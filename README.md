@@ -42,28 +42,41 @@ python crop.py input.png output.png X_POS Y_POS WIDTH HEIGHT
 
 ### Merge 2 images
 
-COMING SOON
-
-## Examples
-
-Get art (chad) from canvas (dgg-place-template-1.png):
 ```sh
-python crop.py dgg-place-template-1.png dgg-large.png 1773 882 483 321
+python merge.py input_1.png input_2.png output.png
+```
+
+## Example Workflow
+
+Get art from canvas (dgg-place-template-1.png):
+```sh
+python crop.py dgg-place-template-1.png chad-large.png 1773 882 483 321
+python crop.py dgg-place-template-1.png depresstiny-large.png 3351 2190 360 396
 ```
 
 Downres large art to small:
 ```sh
-python downres.py dgg-large.png dgg-small.png
+python downres.py chad-large.png chad-small.png
+python downres.py depresstiny-large.png depresstiny-small.png
 ```
+
+This is where you would update the art.
 
 Upres small art to large:
 ```sh
-python upres.py dgg-small.png dgg-large.png
+python upres.py chad-small.png chad-large.png
+python upres.py depresstiny-small.png depresstiny-large.png
 ```
 
-Place large art in canvas:
+Place large art in mega canvas:
 ```sh
-python position.py dgg-large.png dgg-place-template-1-new.png 1773 882
+python position.py chad-large.png canvas-chad.png 1773 882
+python position.py depresstiny-large.png canvas-depresstiny.png 3351 2190
+```
+
+Merge canvasses:
+```sh
+python merge.py canvas-chad.png canvas-depresstiny.png dgg-place-template-1-new.png
 ```
 
 ## Disclaimer
