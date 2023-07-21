@@ -28,7 +28,7 @@ python downres.py input.png output.png
 
 ### Position image in 4500x3000
 
-Needs an upressed image.
+The input needs to be an upressed image.
 ```sh
 python position.py input.png output.png X_POS Y_POS
 ```
@@ -48,7 +48,7 @@ python merge.py input_1.png input_2.png output.png
 
 ## Example Workflow
 
-Get art from canvas (dgg-place-template-1.png):
+Get art from canvas (`dgg-place-template-1.png`):
 ```sh
 python crop.py dgg-place-template-1.png chad-large.png 1773 882 483 321
 python crop.py dgg-place-template-1.png depresstiny-large.png 3351 2190 360 396
@@ -60,7 +60,7 @@ python downres.py chad-large.png chad-small.png
 python downres.py depresstiny-large.png depresstiny-small.png
 ```
 
-This is where you would update the art.
+At this point you can update the small art!
 
 Upres small art to large:
 ```sh
@@ -81,5 +81,7 @@ python merge.py canvas-chad.png canvas-depresstiny.png dgg-place-template-1-new.
 
 ## Disclaimer
 
-I am not a Python dev. I just managed to cobble this together with some help from GPT-4. I take no responsability. Seems solid tho, right?
+I am not a Python dev.\
+I just managed to cobble this together with some help from GPT-4. I take no responsability.\
+Seems solid tho, right?
 
