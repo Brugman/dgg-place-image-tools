@@ -50,7 +50,7 @@ python merge.py input_1.png input_2.png output.png
 
 Get art from canvas (`dgg-place-template-1.png`):
 ```sh
-python crop.py dgg-place-template-1.png chad-large.png 1773 882 483 321
+python crop.py dgg-place-template-1.png chad-large.png 1773 882 483 324
 python crop.py dgg-place-template-1.png depresstiny-large.png 3351 2190 360 396
 ```
 
