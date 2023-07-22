@@ -25,5 +25,5 @@ image_merged.paste( image_two, ( 0, 0 ), image_two )
 # save merged image
 image_merged.save( sys.argv[3] )
 print(' ')
-print(f"Merged image stored as {sys.argv[2]}")
+print(f"Merged image stored as {sys.argv[3]}")
 
