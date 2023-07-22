@@ -50,6 +50,7 @@ python merge.py input_1.png input_2.png output.png
 
 1. Get art from canvas (`dgg-place-template-1.png`):
 ```sh
+# python crop.py [input] [output] X_POS Y_POS WIDTH HEIGHT
 python crop.py dgg-place-template-1.png chad-large.png 3273 882 483 324
 python crop.py dgg-place-template-1.png dirlao-large.png 5019 2775 411 225
 python crop.py dgg-place-template-1.png dog-large.png 5433 2808 192 192
@@ -60,6 +61,7 @@ python crop.py dgg-place-template-1.png ua-large.png 1986 957 1287 306
 
 2. Downres large art to small:
 ```sh
+# python downres.py [input] [output]
 python downres.py chad-large.png chad-small.png
 python downres.py dirlao-large.png dirlao-small.png
 python downres.py dog-large.png dog-small.png
@@ -72,6 +74,7 @@ python downres.py ua-large.png ua-small.png
 
 4. Upres small art to large:
 ```sh
+# python upres.py [input] [output]
 python upres.py chad-small.png chad-large.png
 python upres.py dirlao-small.png dirlao-large.png
 python upres.py dog-small.png dog-large.png
@@ -82,6 +85,7 @@ python upres.py ua-small.png ua-large.png
 
 5. Place large art in mega canvas:
 ```sh
+# python position.py [input] [output] X_POS Y_POS
 python position.py chad-large.png chad-canvas.png 3273 882
 python position.py dirlao-large.png dirlao-canvas.png 5019 2775
 python position.py dog-large.png dog-canvas.png 5433 2808
@@ -93,6 +97,7 @@ python position.py ua-large.png ua-canvas.png 1986 957
 6. Merge canvasses:
 ```sh
 # BEING REWORKED
+# python merge.py [input_1] [input_2] [output]
 python merge.py chad-canvas.png depresstiny-canvas.png dgg-place-template-1-new.png
 ```
 
