@@ -48,7 +48,7 @@ python merge.py input_1.png input_2.png output.png
 
 ## Example Workflow
 
-Get art from canvas (`dgg-place-template-1.png`):
+1. Get art from canvas (`dgg-place-template-1.png`):
 ```sh
 python crop.py dgg-place-template-1.png chad-large.png 3273 882 483 324
 python crop.py dgg-place-template-1.png dirlao-large.png 5019 2775 411 225
@@ -58,7 +58,7 @@ python crop.py dgg-place-template-1.png depresstiny-large.png 396 882 315 381
 python crop.py dgg-place-template-1.png ua-large.png 1986 957 1287 306
 ```
 
-Downres large art to small:
+2. Downres large art to small:
 ```sh
 python downres.py chad-large.png chad-small.png
 python downres.py dirlao-large.png dirlao-small.png
@@ -68,9 +68,9 @@ python downres.py depresstiny-large.png depresstiny-small.png
 python downres.py ua-large.png ua-small.png
 ```
 
-At this point you can update the small art!
+3. At this point you can update the small art!
 
-Upres small art to large:
+4. Upres small art to large:
 ```sh
 python upres.py chad-small.png chad-large.png
 python upres.py dirlao-small.png dirlao-large.png
@@ -80,7 +80,7 @@ python upres.py depresstiny-small.png depresstiny-large.png
 python upres.py ua-small.png ua-large.png
 ```
 
-Place large art in mega canvas:
+5. Place large art in mega canvas:
 ```sh
 python position.py chad-large.png canvas-chad.png 3273 882
 python position.py dirlao-large.png canvas-dirlao.png 5019 2775
@@ -90,7 +90,7 @@ python position.py depresstiny-large.png canvas-depresstiny.png 396 882
 python position.py ua-large.png canvas-ua.png 1986 957
 ```
 
-Merge canvasses:
+6. Merge canvasses:
 ```sh
 python merge.py canvas-chad.png canvas-depresstiny.png dgg-place-template-1-new.png
 ```
