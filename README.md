@@ -46,10 +46,11 @@ Keep in mind you want 1 extra blank pixel around the art at all sides.
 python crop.py input.png output.png X_POS Y_POS WIDTH HEIGHT
 ```
 
-### Merge 2 images
+### Merge many images
 
+You can have as many input images as you want.
 ```sh
-python merge.py input_1.png input_2.png output.png
+python mergemany.py output.png input_1.png input_2.png input_3.png [...]
 ```
 
 \
@@ -95,7 +96,7 @@ python upres.py depresstiny-small.png depresstiny-large.png
 python upres.py ua-small.png ua-large.png
 ```
 
-5. Place large art in mega canvas:
+5. Place large art in a 6000x3000 canvas:
 ```sh
 # python position.py [input] [output] X_POS Y_POS
 python position.py chad-large.png chad-canvas.png 3273 882
@@ -106,12 +107,13 @@ python position.py depresstiny-large.png depresstiny-canvas.png 396 882
 python position.py ua-large.png ua-canvas.png 1986 957
 ```
 
-6. Merge canvasses:
+6. Merge all canvasses:
 ```sh
-# BEING REWORKED
-# python merge.py [input_1] [input_2] [output]
-python merge.py chad-canvas.png depresstiny-canvas.png dgg-place-template-1-new.png
+# python mergemany.py [output] [input_1] [input_2] [input_3] etc
+python mergemany.py dgg-place-template-1-new.png chad-canvas.png dirlao-canvas.png dog-canvas.png pepe-canvas.png depresstiny-canvas.png ua-canvas.png
 ```
+
+7. Throw `dgg-place-template-1-new.png` on [dgg-place](https://github.com/destinygg/dgg-place) after you rename it.
 
 \
 \
