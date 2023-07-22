@@ -82,18 +82,18 @@ python upres.py ua-small.png ua-large.png
 
 5. Place large art in mega canvas:
 ```sh
-python position.py chad-large.png canvas-chad.png 3273 882
-python position.py dirlao-large.png canvas-dirlao.png 5019 2775
-python position.py dog-large.png canvas-dog.png 5433 2808
-python position.py pepe-large.png canvas-pepe.png 3168 2799
-python position.py depresstiny-large.png canvas-depresstiny.png 396 882
-python position.py ua-large.png canvas-ua.png 1986 957
+python position.py chad-large.png chad-canvas.png 3273 882
+python position.py dirlao-large.png dirlao-canvas.png 5019 2775
+python position.py dog-large.png dog-canvas.png 5433 2808
+python position.py pepe-large.png pepe-canvas.png 3168 2799
+python position.py depresstiny-large.png depresstiny-canvas.png 396 882
+python position.py ua-large.png ua-canvas.png 1986 957
 ```
 
 6. Merge canvasses:
 ```sh
 # BEING REWORKED
-python merge.py canvas-chad.png canvas-depresstiny.png dgg-place-template-1-new.png
+python merge.py chad-canvas.png depresstiny-canvas.png dgg-place-template-1-new.png
 ```
 
 ## Disclaimer
