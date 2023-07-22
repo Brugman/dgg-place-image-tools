@@ -10,6 +10,12 @@
 pip install Pillow
 ```
 
+\
+\
+\
+\
+\
+
 ## Usage
 
 ### Upres image
@@ -45,6 +51,12 @@ python crop.py input.png output.png X_POS Y_POS WIDTH HEIGHT
 ```sh
 python merge.py input_1.png input_2.png output.png
 ```
+
+\
+\
+\
+\
+\
 
 ## Example Workflow
 
@@ -100,6 +112,12 @@ python position.py ua-large.png ua-canvas.png 1986 957
 # python merge.py [input_1] [input_2] [output]
 python merge.py chad-canvas.png depresstiny-canvas.png dgg-place-template-1-new.png
 ```
+
+\
+\
+\
+\
+\
 
 ## Disclaimer
 
