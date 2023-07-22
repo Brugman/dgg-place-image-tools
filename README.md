@@ -14,7 +14,7 @@ pip install Pillow
 \
 \
 \
-\
+.
 
 ## Usage
 
@@ -56,7 +56,7 @@ python merge.py input_1.png input_2.png output.png
 \
 \
 \
-\
+.
 
 ## Example Workflow
 
@@ -117,7 +117,7 @@ python merge.py chad-canvas.png depresstiny-canvas.png dgg-place-template-1-new.
 \
 \
 \
-\
+.
 
 ## Disclaimer
 
