@@ -51,11 +51,13 @@ python merge.py input_1.png input_2.png output.png
 Get art from canvas (`dgg-place-template-1.png`):
 ```sh
 python crop.py dgg-place-template-1.png chad-large.png 3273 882 483 324
+python crop.py dgg-place-template-1.png dirlao-large.png 5019 2775 411 225
 ```
 
 Downres large art to small:
 ```sh
 python downres.py chad-large.png chad-small.png
+python downres.py dirlao-large.png dirlao-small.png
 ```
 
 At this point you can update the small art!
@@ -63,11 +65,13 @@ At this point you can update the small art!
 Upres small art to large:
 ```sh
 python upres.py chad-small.png chad-large.png
+python upres.py dirlao-small.png dirlao-large.png
 ```
 
 Place large art in mega canvas:
 ```sh
 python position.py chad-large.png canvas-chad.png 3273 882
+python position.py dirlao-large.png canvas-dirlao.png 5019 2775
 ```
 
 Merge canvasses:
