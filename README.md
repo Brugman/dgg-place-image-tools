@@ -92,6 +92,7 @@ python position.py ua-large.png canvas-ua.png 1986 957
 
 6. Merge canvasses:
 ```sh
+# BEING REWORKED
 python merge.py canvas-chad.png canvas-depresstiny.png dgg-place-template-1-new.png
 ```
 
