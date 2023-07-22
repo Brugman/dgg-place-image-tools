@@ -9,6 +9,8 @@ if len(sys.argv) < 7:
 
 # get original
 image_original = Image.open( sys.argv[1] )
+# make sure its rgba
+image_original = image_original.convert('RGBA')
 
 # calc crop args
 x_start = int( sys.argv[3] )

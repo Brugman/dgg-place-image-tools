@@ -9,6 +9,8 @@ if len(sys.argv) < 3:
 
 # get old
 image_old = Image.open( sys.argv[1] )
+# make sure its rgba
+image_old = image_old.convert('RGBA')
 # get size of old
 image_old_w, image_old_h = image_old.size
 

@@ -11,6 +11,10 @@ if len(sys.argv) < 4:
 image_one = Image.open( sys.argv[1] )
 image_two = Image.open( sys.argv[2] )
 
+# make sure its rgba
+image_one = image_one.convert('RGBA')
+image_two = image_two.convert('RGBA')
+
 # create canvas
 image_merged = Image.new( 'RGBA', image_one.size )
 

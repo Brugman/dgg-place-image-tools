@@ -9,6 +9,8 @@ if len(sys.argv) < 5:
 
 # get art
 image_art = Image.open( sys.argv[1] )
+# make sure its rgba
+image_art = image_art.convert('RGBA')
 
 # create canvas
 image_canvas = Image.new('RGBA', ( 4500, 3000 ), color=( 0, 0, 0, 0 ) )
