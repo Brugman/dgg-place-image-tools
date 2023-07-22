@@ -13,7 +13,7 @@ image_art = Image.open( sys.argv[1] )
 image_art = image_art.convert('RGBA')
 
 # create canvas
-image_canvas = Image.new('RGBA', ( 4500, 3000 ), color=( 0, 0, 0, 0 ) )
+image_canvas = Image.new('RGBA', ( 6000, 3000 ), color=( 0, 0, 0, 0 ) )
 
 # paste art on canvas
 image_canvas.paste( image_art, ( int( sys.argv[3] ), int( sys.argv[4] ) ) )

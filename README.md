@@ -26,14 +26,14 @@ Does the opposite of upres.
 python downres.py input.png output.png
 ```
 
-### Position image in 4500x3000
+### Position image in 6000x3000
 
 The input needs to be an upressed image.
 ```sh
 python position.py input.png output.png X_POS Y_POS
 ```
 
-### Crop image out of 4500x3000
+### Crop image out of 6000x3000
 
 Keep in mind you want 1 extra blank pixel around the art at all sides.
 ```sh
@@ -50,7 +50,7 @@ python merge.py input_1.png input_2.png output.png
 
 Get art from canvas (`dgg-place-template-1.png`):
 ```sh
-python crop.py dgg-place-template-1.png chad-large.png 1773 882 483 324
+python crop.py dgg-place-template-1.png chad-large.png 3273 882 483 324
 ```
 
 Downres large art to small:
@@ -67,7 +67,7 @@ python upres.py chad-small.png chad-large.png
 
 Place large art in mega canvas:
 ```sh
-python position.py chad-large.png canvas-chad.png 1773 882
+python position.py chad-large.png canvas-chad.png 3273 882
 ```
 
 Merge canvasses:
