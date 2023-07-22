@@ -55,6 +55,7 @@ python crop.py dgg-place-template-1.png dirlao-large.png 5019 2775 411 225
 python crop.py dgg-place-template-1.png dog-large.png 5433 2808 192 192
 python crop.py dgg-place-template-1.png pepe-large.png 3168 2799 270 198
 python crop.py dgg-place-template-1.png depresstiny-large.png 396 882 315 381
+python crop.py dgg-place-template-1.png ua-large.png 1986 957 1287 306
 ```
 
 Downres large art to small:
@@ -64,6 +65,7 @@ python downres.py dirlao-large.png dirlao-small.png
 python downres.py dog-large.png dog-small.png
 python downres.py pepe-large.png pepe-small.png
 python downres.py depresstiny-large.png depresstiny-small.png
+python downres.py ua-large.png ua-small.png
 ```
 
 At this point you can update the small art!
@@ -75,6 +77,7 @@ python upres.py dirlao-small.png dirlao-large.png
 python upres.py dog-small.png dog-large.png
 python upres.py pepe-small.png pepe-large.png
 python upres.py depresstiny-small.png depresstiny-large.png
+python upres.py ua-small.png ua-large.png
 ```
 
 Place large art in mega canvas:
@@ -84,6 +87,7 @@ python position.py dirlao-large.png canvas-dirlao.png 5019 2775
 python position.py dog-large.png canvas-dog.png 5433 2808
 python position.py pepe-large.png canvas-pepe.png 3168 2799
 python position.py depresstiny-large.png canvas-depresstiny.png 396 882
+python position.py ua-large.png canvas-ua.png 1986 957
 ```
 
 Merge canvasses:
