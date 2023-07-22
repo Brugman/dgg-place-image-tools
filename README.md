@@ -61,7 +61,7 @@ python mergemany.py output.png input_1.png input_2.png input_3.png [...]
 
 ## Example Workflow
 
-1. Get art from canvas (`dgg-place-template-1.png`):
+1. Crop art out of the [dgg-place](https://github.com/destinygg/dgg-place) canvas:
 ```sh
 # python crop.py [input] [output] X_POS Y_POS WIDTH HEIGHT
 python crop.py dgg-place-template-1.png chad-large.png 3273 882 483 324
