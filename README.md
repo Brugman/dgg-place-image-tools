@@ -1,5 +1,7 @@
 # Image Tools for DGG Place
 
+> PSA: This repo is no longer useful as DGG r/Place tech has upgraded to display the pixels on a 3x3 grid on the client side. Artists and devs can supply regular 1x1 pixel art.
+
 ## Installation
 
 - Install Python.
